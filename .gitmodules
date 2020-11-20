@@ -4,3 +4,6 @@
 [submodule "geometric_Sd_model"]
 	path = geometric_Sd_model
 	url = https://github.com/antoineallard/geometric_Sd_model.git
+[submodule "directed_graph"]
+	path = directed_graph
+	url = https://github.com/antoineallard/directed_graph.git
