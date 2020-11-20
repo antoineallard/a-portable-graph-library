@@ -41,11 +41,11 @@ and then
 
 ### Available sub-modules
 
-No extensive documentation is available. However we provide several tutorials in the form of C++ codes and Jupyter notebooks to illustrate how to use the PGL. Codes validating several functionalities of the `pgl` are located in most sub-module's `validation/` sub-directory and provide additional examples.
+There is no extensive documentation. However we provide several tutorials in the form of C++ codes and Jupyter notebooks to illustrate how to use the PGL. Codes validating several functionalities of the PGL provide additional examples and are located in most sub-module's `validation/` sub-directory.
 
 #### Structure of graphs
 
-  * `directed_graph`: Provides functions to compute and extract various structural properties of simple directed graphs without self-loops.
+  * `directed_graph`: Provides functions to compute and extract various structural properties of simple unweighted directed graphs without self-loops.
 <!--- Most of these functionalities are also available in the `pgl` Python module.--->
 
 
@@ -58,7 +58,7 @@ No extensive documentation is available. However we provide several tutorials in
 
 #### Percolation on graphs
 
-  * `percolation_on_graph`: Provides functions to efficiently simulate bond percolation on simple undirected graphs without self-loops.
+  * `percolation_on_graph`: Provides functions to efficiently simulate bond percolation on simple unweighted undirected graphs without self-loops.
 
 
 
