@@ -21,7 +21,7 @@ I therefore decided to start writing my own code, adding new features following 
   <!--- * [pybind11] (for the Python module; should be installed automatically)--->
 
 
-### Installation (Linux, OS X)
+### Installation<!-- (Linux, OS X)-->
 
 Clone this reporsitory using the `--recurse-submodules` option (see [Git documentation]), for example:
 ```
@@ -29,8 +29,8 @@ git clone --recurse-submodules https://github.com/antoineallard/a-portable-graph
 ```
 
 <!--- ##### C++--->
-* copy the required header file (`<sub-module>/src/<class object>.hpp`) file in your project directory.
-* add `#include "<class object>.hpp"` to your C++ code
+  * copy the required header file (`<sub-module>/src/<class object>.hpp`) file in your project directory.
+  * add `#include "<class object>.hpp"` to your C++ code
 
 <!--- ##### Python module
   * clone this repository
@@ -45,11 +45,13 @@ No extensive documentation is available. However we provide several tutorials in
 
 #### Structure of graphs
 
-* `directed_graph`: Provides functions to compute and extract various structural properties of simple directed graphs without self-loops.
+  * `directed_graph`: Provides functions to compute and extract various structural properties of simple directed graphs without self-loops.
 <!--- Most of these functionalities are also available in the `pgl` Python module.--->
 
 
 #### Random graph generators
+
+  * `geometric_Sd_model`: Generates random geometric graphs according to the S^D model.
 
 <!---* `lcloning.py` [[source]](src_python/lcloning.py): A python script that generates an undirected edgelist using the [L-cloning algorithm][6]. As the number of copies goes to infinity, the generated edgelist belongs to the ensemble considered in the message passing approach.--->
 
