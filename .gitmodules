@@ -1,0 +1,6 @@
+[submodule "percolation_on_graph"]
+	path = percolation_on_graph
+	url = https://github.com/antoineallard/percolation_on_graph.git
+[submodule "geometric_Sd_model"]
+	path = geometric_Sd_model
+	url = https://github.com/antoineallard/geometric_Sd_model.git
