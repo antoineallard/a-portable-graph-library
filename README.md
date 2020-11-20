@@ -27,7 +27,7 @@ Clone this reporsitory using the `--recurse-submodules` option (see [Git documen
 ```
 git clone --recurse-submodules https://github.com/antoineallard/a-portable-graph-library.git
 ```
-
+and then
 <!--- ##### C++--->
   * copy the required header file (`<sub-module>/src/<class object>.hpp`) file in your project directory.
   * add `#include "<class object>.hpp"` to your C++ code
