@@ -7,3 +7,6 @@
 [submodule "directed_graph"]
 	path = directed_graph
 	url = https://github.com/antoineallard/directed_graph.git
+[submodule "l-cloning"]
+	path = l-cloning
+	url = https://github.com/antoineallard/l-cloning.git
