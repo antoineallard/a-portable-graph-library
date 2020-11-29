@@ -53,7 +53,7 @@ There is no extensive documentation. However we provide several tutorials in the
 
   * `geometric_Sd_model`: Generates random geometric graphs according to the S^D model.
 
-<!---* `lcloning.py` [[source]](src_python/lcloning.py): A python script that generates an undirected edgelist using the [L-cloning algorithm][6]. As the number of copies goes to infinity, the generated edgelist belongs to the ensemble considered in the message passing approach.--->
+  * `lcloning.py` Generates an undirected edgelist using the [L-cloning algorithm][6]. <!--As the number of copies goes to infinity, the generated edgelist belongs to the ensemble considered in the message passing approach.-->
 
 
 #### Percolation on graphs
