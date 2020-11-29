@@ -59,6 +59,20 @@ There is no extensive documentation. However we provide several tutorials in the
   * `percolation_on_graph`: Provides functions to efficiently simulate bond percolation on simple unweighted undirected graphs without self-loops.
 
 
+### Input files
+
+Most sub-modules of the PGL import graphs using an edgelist format (see each sub-module for details). A compatible edgelist file can be generated from `NetworkX` or `Graph-tool` via
+
+```python
+# NetworkX
+networkx.write_edgelist(your_graph_object, filename_of_edgelist, delimiter=' ', data=False)
+
+# Graph-tool
+with open(filename_of_edgelist, "w") as f:
+    for e in your_graph_object:
+      f.write("{} {}".format(e[0], e[1]))
+```
+
 
 [Boost]:              https://www.boost.org
 [complex networks]:   https://en.wikipedia.org/wiki/Complex_network
