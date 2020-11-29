@@ -1,6 +1,6 @@
 ## PGL: A portable graph library
 
-PGL provides a set of C++<!--/Python--> objects and Python scripts to analyze, manipulate and simulate the structure of graphs (or [complex networks]).
+PGL provides a set of C++ objects and Python scripts to analyze, manipulate and simulate the structure of graphs (or [complex networks]).
 
 Except for a few exceptions, every objects provided by the PGL are written in standard C++. They are provided via self-contained header files making them easily integrable into any C++ project (can be included similarly to any header-only libraries such as [Boost] or the [STL]).
 
@@ -17,7 +17,7 @@ I therefore decided to start writing my own code, adding new features following 
 ### Requirements
 
   * A C++11 (or newer) compliant compiler
-  <!--- * python 3.x (for the Python module)--->
+  * Python 3.x
   <!--- * [pybind11] (for the Python module; should be installed automatically)--->
 
 
@@ -28,15 +28,13 @@ Clone this reporsitory using the `--recurse-submodules` option (see [Git documen
 git clone --recurse-submodules https://github.com/antoineallard/a-portable-graph-library.git
 ```
 and then
-<!--- ##### C++--->
+##### C++
   * copy the required header file (`<sub-module>/src/<class object>.hpp`) file in your project directory.
-  * add `#include "<class object>.hpp"` to your C++ code
+  * add `#include <class object>.hpp` to your C++ code
 
-<!--- ##### Python module
-  * clone this repository
-  * `cd a-portable-graph-library`
-  * `pip3 install --global-option=build_ext --global-option="-I"${PWD} python_module_setup/`
-  * add `import pgl` to your Python script--->
+##### Python module
+  * copy the required script file (`<sub-module>/src/<script file>.hpp`) file in your project directory.
+  * add `import <script file>` to your Python script
 
 
 ### Available sub-modules
